@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Merriweather:wght@700;900&display=swap');
+:root
+{
+    --green: #54C954;
+    --white: white;
+    --black: black;
+    --project-1: #54C954;
+    --project-2: #CEE7F3;
+    --project-3: #EE7A3F;
+    --project-4: #0A66C2;
+    --project-5: #9B51E0;
+    --project-6: #FBC80A;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+}
+
+.main-page
+{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 106px;
+    margin-top: 111px;
+}
+.name
+{
+    color: white;
+    font-size: 32px;
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 771px;
+    line-height: 40.22px;
+    letter-spacing: 0.06em;
+}
+.main--info
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* width: 1227px; */
+    line-height: 80px;
+    margin-top: 50px;
+    font-size: 64px;
+}
+.main--info > p
+{
+    display: flex;
+    justify-content: flex-start;
+}   
+.main--info--line
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.main--stocks
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 80px;
+    margin-top: 40px;
+}
+.main-stocks--soon
+{
+    font-family: 'Libre Franklin';
+    font-size: 32px;
+    font-weight: 700;
+    background: rgba(200, 184, 255, 1);
+    color: black;
+    padding: 0px 20.5px 0px 20.5px;
+    width: 239px;
+    margin-right: 0;
+    position: absolute;
+    left: 1017px;
+    top: 570px;
+}
+.main--freecharge
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top:40px;
+    font-size: 64px;
+    line-height: 80px;
+}
+.freecharge
+{
+    font-weight: 700;
+}
+.freecharge > a
+{
+    color:rgba(200, 184, 255, 1);
+}
+.main--location
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top:40px;
+    font-size: 64px;
+    line-height: 80px;
+}
+.work-comp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 228px;
+    margin-right: 227px;
+}
+.work
+{
+    color: var(--white);
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 42px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+.project-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.project-container > a
+{
+    text-decoration: none;
+}
+.box
+{
+    width: 985px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image-container
+{
+    background: none;
+    margin: 0 auto;
+}
+.project-cover
+{
+    background: none;
+    width: 128px;
+    height: 128px;
+}
+.details-container
+{
+    height: 0;
+    margin-left: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title, .subtitle, .domain
+{
+    background: none;
+    display: flex;
+    justify-content: flex-start;    
+    color: white;
+}
+.title
+{
+    font-family: 'Merriweather';
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    /* line-height: 27px; */
+}
+.subtitle
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 8px;
+}
+.domain
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 8px;
+}
+.project-container--1--div
+{
+    background: linear-gradient(261.53deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-color: var(--project-1);
+}
+.project-container--2--div
+{
+    background: linear-gradient(261.53deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-color: var(--project-2);
+}
+.project-container--3--div
+{
+    background: linear-gradient(261.53deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-color: var(--project-3);
+}
+.project-container--4--div
+{
+    background: linear-gradient(261.53deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-color: var(--project-4);
+}
+.project-container--5--div
+{
+    background: linear-gradient(261.53deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-color: var(--project-5);
+}
+.project-container--6--div
+{
+    background: linear-gradient(261.53deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-color: var(--project-6);
+}
+
+.about-comp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 228px;
+    margin-top: 80px;
+}
+.about-heading
+{
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Merriweather';
+
+}
+.image-box
+{
+    height: 380px;
+    width: 985px;
+    border-radius: 0px;
+    margin-top: 80px;
+}
+.about-charan-1, .about-charan-2, .about-charan-3
+{
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 985px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 80px;
+    line-height: 32px;
+    font-size: 22px;
+}
+.about-charan-3
+{
+    width: 990px;
+}
+.about-charan-1 > span, .about-charan-2 > span, .about-charan-3 > span
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.design-think, .freecharge
+{
+    color: var(--green);
+    font-weight: 700;
+}
+.sentence-2, .sentence-3, .sentence-4
+{
+    margin-top: 15px;
+}
+.POV, .his-work
+{
+    font-weight: 700;
+}
+.resume-link
+{
+    font-family: 'Libre Franklin', sans-serif;
+    color: var(--white);
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    width: 162px;
+    height: 77px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 150px;
+}
+.resume-button
+{
+    background: #1C1C1E;
+    width: 162px;
+    height: 77px;
+    border-radius: 100px;
+}
+.resume-button > p
+{
+    position: relative;
+    top: 26.5px;
+    background: none;
+    text-align: center;
+}
+.connect-comp
+{
+    background: var(--green);
+    height: 570px;
+    padding: 0 0 0 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.bg, .bg > span
+{
+    background: var(--green);
+}
+.connect--h1
+{
+    color: var(--white);
+    font-family: 'Merriweather';
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 42px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+.contact-me
+{
+    width: 458px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--white);
+    margin-top: 20px;
+}
+.contact-me > span 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.social
+{
+    background: none;
+    display: flex;
+    margin-top: 20px;
+    width: 194px;
+    justify-content: space-between;
+    height: 26px;
+}
+.social > a
+{
+    background: none;
+}
+.social--icon
+{
+    color: white;
+    width: 26px;
+    height: 26px;
+    background: none;
+}
+.twitter
+{
+    height: 24px;
+}
+.mail-me
+{
+    color: var(--white);
+    /* width: 299px; */
+    font-family: 'Merriweather';
+    font-size: 44px;
+    font-weight: 700;
+    /* line-height: 42px; */
+    display: flex;
+    justify-content: flex-start;
+    background: none;
+    margin-top: 40px;
+}
+.mail-click-function
+{
+    background: none !  important; 
+    width: 430px;
+    height: 55px;
+    border-radius: 100px;
+    margin-top: 8px;
+}
+.mail-box
+{
+    width: 430px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.12);
+    /* margin-top:20px; */
+}
+.mail-id
+{
+    text-decoration-line: underline;
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    position: relative;
+    left: 20px;
+    letter-spacing: 0.02em;
+}
+.mail-icon
+{
+    color: white;
+    width: 20px;
+    height: 20px;
+    background: none;
+    position: relative;
+    right: 20px;
+}
+.line-break
+{
+    width: 985px;
+    /* height: 10px;
+    color: white; */
+    /* border: solid white; */
+    background: white;
+    margin-top: 40px;
+    border: 1.5px solid rgba(255, 255, 255, 1)
+}
+.credits
+{
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    color: white;
+    margin-top: 35px;
+}
+.sadha-linkedin
+{
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    color: white;
+}
+
+
+@media screen and (max-width:500px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .main-page
+    {
+        color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 33px;
+        margin-top: 50px;
+    }
+    .name
+    {
+        color: var(--green);
+        font-size: 16px;
+        font-family: 'Merriweather';
+        font-weight: 900;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 771px;
+        line-height: 20.11px;
+    }
+    .charan
+    {
+        letter-spacing: 0.06em;
+    }
+    .pushpanathan
+    {
+        letter-spacing: 0.03em;
+    }
+    .main--behind
+    {
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        line-height: 45px;
+        margin-top: 40px;
+        max-width: 310px;
+        background: red;
+    }
+}
