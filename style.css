@@ -7,7 +7,6 @@
 body
 {
     background: rgba(250, 250, 250, 1);
-
 }
 .main
 {
@@ -26,8 +25,6 @@ body
     font-weight: 500;
     display: flex;
     justify-content: flex-start;
-    /* flex-wrap: wrap; */
-    /* width: 771px; */
     line-height: 38.78px;
     letter-spacing: 0.06em;
 }
@@ -50,7 +47,6 @@ body
     line-height: 50px;
     margin-top: 100px;
 }
-
 .main--stocks
 {
     font-family: 'Libre Franklin', sans-serif;
@@ -63,15 +59,11 @@ body
     line-height: 50px;
     margin-top: 40px;
 }
-
 .main--freecharge
 {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
     font-weight: 500;
-    /* display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap; */
     margin-top:40px;
     line-height: 50px;
 }
@@ -79,7 +71,6 @@ body
 {
     color: black;
 }
-
 .main--location
 {
     font-family: 'Libre Franklin', sans-serif;
@@ -91,7 +82,6 @@ body
     margin-top:40px;
     line-height: 50px;
 }
-
 .work
 {
     display: flex;
@@ -127,7 +117,6 @@ body
     width: 508px;
     height: 380px;
 }
-
 .about
 {
     display: flex;
@@ -137,7 +126,6 @@ body
     margin-top: 80px;
     font-family: 'Libre Franklin';
 }
-
 #about--heading
 {
     font-family: Libre Franklin;
@@ -153,11 +141,7 @@ body
     line-height: 32px;
     font-size: 22px;
     font-weight: 500;
-font-size: 22px;
-font-weight: 500;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
+    text-align: left;
 }
 .about-charan-1 > span, .about-charan-2 > span, .about-charan-3 > span
 {
@@ -225,13 +209,10 @@ text-align: left;
 .connect--charan
 {
     margin-top: 100px;
-    /* margin-left: 229px; */
-
 }
 .connect--sadhasivam
 {
     margin-top: 100px;
-    /* margin */
 }
 .connect--unite
 {
