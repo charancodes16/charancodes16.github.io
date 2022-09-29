@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(250, 250, 250, 1);
+
+}
+.main
+{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 106px;
+    margin-top: 111px;
+}
+.main--name
+{
+    color:rgba(0, 0, 0, 1);
+    font-size: 32px;
+    font-family: 'Libre Franklin';
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* width: 771px; */
+    line-height: 38.78px;
+    letter-spacing: 0.06em;
+}
+.charan-img
+{
+    width: 467px;
+    position: absolute;
+    right: 0;
+    /* margin-top: 392px; */
+    top: 392px;
+}
+.main--info
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+.main--stocks
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 50px;
+    margin-top: 40px;
+}
+
+.main--freecharge
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; */
+    margin-top:40px;
+    line-height: 50px;
+}
+#freecharge
+{
+    color: black;
+}
+
+.main--location
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top:40px;
+    line-height: 50px;
+}
+
+.work
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 228px;
+    margin-right: 227px;
+    margin-top: 170px;
+}
+#work-heading
+{
+    font-family: 'Libre Franklin';
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.project-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 82px;
+    font-size: 0px;
+}
+.project-cover
+{
+    width: 508px;
+    height: 380px;
+}
+
+.about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 228px;
+    margin-top: 80px;
+    font-family: 'Libre Franklin';
+}
+
+#about--heading
+{
+    font-family: Libre Franklin;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.about-charan-1, .about-charan-2, .about-charan-3
+{
+    margin-top: 80px;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 500;
+font-size: 22px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+}
+.about-charan-1 > span, .about-charan-2 > span, .about-charan-3 > span
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.design-think, .freecharge
+{
+    text-decoration: underline;
+}
+.sentence-2, .sentence-3, .sentence-4
+{
+    margin-top: 15px;
+}
+.POV, .his-work
+{
+    font-weight: 700;
+}
+.about-charan-2, .about-charan-3
+{
+    margin-top: 40px;
+}
+.resume-link
+{
+    font-family: 'Libre Franklin', sans-serif;
+    color: var(--white);
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    width: 162px;
+    height: 77px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 150px;
+}
+.resume-button
+{
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    width: 162px;
+    height: 77px;
+    border-radius: 100px;
+}
+.resume-button > p
+{
+    position: relative;
+    top: 26.5px;
+    background: none;
+    text-align: center;
+}
+
+.connect
+{
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 441px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Libre Franklin';
+    font-size: 22px;
+    font-weight: 500;
+}
+.connect--charan
+{
+    margin-top: 100px;
+    /* margin-left: 229px; */
+
+}
+.connect--sadhasivam
+{
+    margin-top: 100px;
+    /* margin */
+}
+.connect--unite
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.connect--socials
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.connect--socials > span > a
+{
+    color: white;
+}
+.connect--mail
+{
+    margin-top: 20px;
+}
+.connect--mail > a
+{
+    color: white;
+}
+.connect--sadha--linkedin
+{
+    margin-top: 28px;
+}
+#sadha-linkedin
+{
+    color: white;
+}
