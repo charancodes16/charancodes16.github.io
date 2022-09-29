@@ -36,7 +36,6 @@ body
     width: 467px;
     position: absolute;
     right: 0;
-    /* margin-top: 392px; */
     top: 392px;
 }
 .main--info
@@ -114,9 +113,14 @@ body
 .project-container
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 82px;
     font-size: 0px;
+}
+.container--div
+{
+    display: flex;
+    flex-direction: row;
 }
 .project-cover
 {
