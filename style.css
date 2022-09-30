@@ -15,7 +15,7 @@ body
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 106px;
-    margin-top: 111px;
+    margin-top: 80px;
 }
 .main--name
 {
@@ -45,7 +45,7 @@ body
     flex-direction: column;
     flex-wrap: wrap;
     line-height: 50px;
-    margin-top: 100px;
+    margin-top: 131px;
 }
 .main--stocks
 {
@@ -167,17 +167,13 @@ body
 .resume-link
 {
     font-family: 'Libre Franklin', sans-serif;
-    color: var(--white);
-    background: none;
+    color: black;
     font-size: 20px;
     font-weight: 700;
-    text-decoration: none;
     letter-spacing: 0.02em;
-    width: 162px;
-    height: 77px;
     margin-top: 40px;
     margin-bottom: 60px;
-    border-radius: 150px;
+    width: 80px;
 }
 .resume-button
 {
