@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+html
+{
+    font-size: 16px;
+}
 body
 {
     background: rgba(250, 250, 250, 1);
@@ -20,7 +24,7 @@ body
 .main--name
 {
     color:rgba(0, 0, 0, 1);
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'Libre Franklin';
     font-weight: 500;
     display: flex;
@@ -59,7 +63,7 @@ body
     line-height: 50px;
     margin-top: 40px;
 }
-.main--freecharge
+.main--works
 {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
@@ -82,6 +86,61 @@ body
     margin-top:40px;
     line-height: 50px;
 }
+.main--new--work
+{
+    color:rgba(255, 255, 255, 1);
+    width: 467px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 740px;
+}
+.new-banner
+{
+    display: flex;    
+    /* flex-direction: column; */
+    background:rgba(0, 0, 0, 1);
+    justify-content: space-around;
+    font-family: 'Libre Franklin';
+    font-weight: 800;
+}
+.mid-content
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Libre Franklin';
+}
+.persuasive-design-content
+{
+    margin-left:15px;
+    margin-top: 20px;
+    font-family: 'Libre Franklin';
+}
+#coming-soon
+{
+    color: rgba(109, 100, 205, 1);
+    font-weight: 600;
+    font-size: 14px;
+}
+#persuasive-design-heading
+{
+    font-weight: 500;
+    font-size: 22px;
+    color:rgba(0, 0, 0, 1);
+    margin-top: 12px;
+}
+#persuasive-text
+{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 6px;
+    font-weight: 500;
+}
+#persuasive-design
+{
+    width: 190px;
+}
 .work
 {
     display: flex;
@@ -89,7 +148,7 @@ body
     justify-content: flex-start;
     margin-left: 228px;
     margin-right: 227px;
-    margin-top: 170px;
+    margin-top: 310px;
 }
 #work-heading
 {
@@ -195,12 +254,12 @@ body
 {
     background: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
-    height: 441px;
     display: flex;
     justify-content: space-around;
     font-family: 'Libre Franklin';
     font-size: 22px;
     font-weight: 500;
+    padding-bottom: 118px;
 }
 .connect--charan
 {
@@ -242,3 +301,151 @@ body
 {
     color: white;
 }
+/*
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+    html
+    {
+        font-size: 16px;
+    }
+    .main
+    {
+        margin-left: 25px;
+    }
+    .main--name
+    {
+        font-size: 0.85rem; 
+    }
+    .main--info
+    {
+        margin-top: 40px;
+        font-size: 1rem;
+        line-height:24px;
+    }
+    .main--stocks
+    {
+        font-size: 1rem;
+        line-height:24px;
+        margin-top: 20px;
+    }
+    .main--freecharge
+    {
+        font-size: 1rem;
+        line-height:24px;
+        margin-top: 20px;
+    }
+    .main--location
+    {
+        font-size: 1rem;
+        line-height:24px;
+        margin-top: 20px;
+    }
+    .container--div
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .charan-img
+    {
+        visibility: hidden;
+    }
+    .charan-img-2
+    {
+        visibility: visible;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .work
+    {
+        margin-left: 25px;
+        margin-top: 80px;
+    }
+    #work-heading
+    {
+        font-size: 1.4rem;
+    }
+    .project-container
+    {
+        margin-left: 27px;
+    }
+    .project-cover
+    {
+        width: 270px;
+        height: 202px;
+    }
+    .about
+    {
+        margin-left: 25px;
+        margin-top: 80px;
+    }
+    #about--heading
+    {
+        font-size: 1.4rem;
+    }
+    .about-charan-1, .about-charan-2, .about-charan-3
+    {
+        margin-top: 80px;
+        line-height: 24px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;
+        max-width:325px;
+    }
+    .resume-link
+    {
+        font-size: 1rem;
+    }
+    .connect
+    {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        padding-bottom: 30px;
+    }
+    .connect--charan
+    {
+        margin-top: 30px;
+    }
+    .connect--unite
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .connect--socials
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .connect--socials > span > a
+    {
+        color: white;
+    }
+    .connect--mail
+    {
+        margin-top: 10px;
+    }
+    .connect--mail > a
+    {
+        color: white;
+    }
+    .connect--sadhasivam
+    {
+        margin-top: 51px;
+    }
+    .connect--sadha--linkedin
+    {
+        margin-top: 10px;
+        max-width: 300px;
+    }
+    #sadha-linkedin
+    {
+        color: white;
+    }
+}
+
+*/
