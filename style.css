@@ -1,451 +1,303 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&display=swap');
 *
 {
     margin: 0;
     padding: 0;
 }
+:root
+{
+    --blue-font: rgba(84, 157, 231, 1);
+}
 html
 {
-    font-size: 16px;
+    font-size: 100%;
 }
 body
 {
-    background: rgba(250, 250, 250, 1);
-}
-.main
-{
-    color: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 106px;
-    margin-top: 80px;
-}
-.main--name
-{
-    color:rgba(0, 0, 0, 1);
-    font-size: 2em;
+    background: rgba(255, 254, 252, 1);
+    padding: 80px 140px 208px 140px;
     font-family: 'Libre Franklin';
-    font-weight: 500;
+}
+.name--nav
+{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center; 
+}
+.name
+{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 6%;
     line-height: 38.78px;
-    letter-spacing: 0.06em;
 }
-.charan-img
+#charan
 {
-    width: 467px;
-    position: absolute;
-    right: 0;
-    top: 392px;
+    color: var(--blue-font);
+    font-weight: 700;
 }
-.main--info
+.nav-bar
 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
+    width: 432px;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    line-height: 50px;
-    margin-top: 131px;
+    justify-content: space-between;
+    align-items: center;
 }
-.main--stocks
+.nav-links
 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    line-height: 50px;
-    margin-top: 40px;
-}
-.main--works
-{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    margin-top:40px;
-    line-height: 50px;
-}
-#freecharge
-{
-    color: black;
-}
-.main--location
-{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top:40px;
-    line-height: 50px;
-}
-.main--new--work
-{
-    color:rgba(255, 255, 255, 1);
-    width: 467px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 740px;
-}
-.new-banner
-{
-    display: flex;    
-    /* flex-direction: column; */
-    background:rgba(0, 0, 0, 1);
-    justify-content: space-around;
-    font-family: 'Libre Franklin';
-    font-weight: 800;
-}
-.mid-content
-{
-    display: flex;
-    flex-direction: row;
-    font-family: 'Libre Franklin';
-}
-.persuasive-design-content
-{
-    margin-left:15px;
-    margin-top: 20px;
-    font-family: 'Libre Franklin';
-}
-#coming-soon
-{
-    color: rgba(109, 100, 205, 1);
+    text-decoration: none;
+    color: var(--blue-font);
+    font-size: 1.25rem;
     font-weight: 600;
-    font-size: 14px;
 }
-#persuasive-design-heading
+#work-btn
 {
-    font-weight: 500;
-    font-size: 22px;
-    color:rgba(0, 0, 0, 1);
-    margin-top: 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
 }
-#persuasive-text
+.works-slideup
 {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 1);
-    margin-top: 6px;
-    font-weight: 500;
+    transition: 500ms ;
+    position: absolute;
+    top: 800px;
+    visibility: hidden;
+    height: 800px;
+    box-shadow: -8px 10px 100px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: 8px -10px 100px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 40px 40px 0px 0px;
+    padding-top: 80px;
+    padding-left: 80px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
-#persuasive-design
-{
-    width: 190px;
-}
-.work
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 228px;
-    margin-right: 227px;
-    margin-top: 310px;
+.works-slideup::-webkit-scrollbar { 
+    display: none;
 }
 #work-heading
 {
-    font-family: 'Libre Franklin';
-    font-size: 44px;
-    font-weight: 500;
-    line-height: 53px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgba(127, 127, 132, 1);
 }
-.project-container
+#close-button
 {
+    width: 44px;
+    position: absolute;
+    right: 80px;
+    top: 74px;
+}
+.work-container
+{
+    max-width: 1044px;
+    max-height: 200px;
+    background-color:rgba(255, 254, 252, 1);
+    padding-top: 46.5px;
+    padding-left: 30px;
+    padding-bottom: 46.5px;
     display: flex;
+    gap: 8px;
     flex-direction: column;
-    margin-top: 82px;
-    font-size: 0px;
 }
-.container--div
+.heading
 {
-    display: flex;
-    flex-direction: row;
-}
-.project-cover
-{
-    width: 508px;
-    height: 380px;
-}
-.about
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 228px;
-    margin-top: 80px;
-    font-family: 'Libre Franklin';
-}
-#about--heading
-{
-    font-family: Libre Franklin;
-    font-size: 44px;
+    color: rgba(84, 157, 231, 1);
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 53px;
-    letter-spacing: 0em;
-    text-align: left;
 }
-.about-charan-1, .about-charan-2, .about-charan-3
+.sub
 {
-    margin-top: 80px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(127, 127, 132, 1);
+    max-width: 850px;
+}
+.description
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    max-width: 850px;
+}
+
+/*
+AFTER SLIDE UP
+*/
+
+.slide-up
+{
+    visibility: visible;
+    transform: translateY(-70%);
+    z-index: 10;
+    /* position: relative; */
+    background:rgba(255, 254, 252, 1);
+}
+
+/*
+END OF WORK STYLES
+*/
+.center-content-wrapper
+{
+    display: flex;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.main-section
+{
+    /* margin: auto 0; */
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Libre Franklin';
+    font-size: 1.25rem;
+    max-width: 545px;
     line-height: 32px;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: left;
 }
-.about-charan-1 > span, .about-charan-2 > span, .about-charan-3 > span
+.HDFC
 {
-    display: flex;
-    justify-content: flex-start;
-}
-.design-think, .freecharge
-{
+    font-weight: 600;
+    color: var(--blue-font);
     text-decoration: underline;
 }
-.sentence-2, .sentence-3, .sentence-4
+.previous-work, .previous-work a
 {
-    margin-top: 15px;
+    font-weight: 600;
+    color: var(--blue-font);
 }
-.POV, .his-work
+.main-section--fintech
 {
-    font-weight: 700;
+    margin-top: 14px;
 }
-.about-charan-2, .about-charan-3
+.main-section--HDFC
 {
-    margin-top: 40px;
+    margin-top: 14px;
 }
-.resume-link
+.main-section--previous
 {
-    font-family: 'Libre Franklin', sans-serif;
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    width: 80px;
+    margin-top: 14px;
 }
-.resume-button
+.main--section--location
 {
-    background: rgba(0, 0, 0, 1);
-    color: white;
-    width: 162px;
-    height: 77px;
-    border-radius: 100px;
+    margin-top: 14px;
 }
-.resume-button > p
+.main-section--charan-pic
 {
-    position: relative;
-    top: 26.5px;
-    background: none;
-    text-align: center;
+    margin-top: 80px;
 }
 
-.connect
+.charan-and-design
 {
-    background: rgba(0, 0, 0, 1);
-    color: rgba(255, 255, 255, 1);
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Libre Franklin';
-    font-size: 22px;
-    font-weight: 500;
-    padding-bottom: 118px;
-}
-.connect--charan
-{
-    margin-top: 100px;
-}
-.connect--sadhasivam
-{
-    margin-top: 100px;
-}
-.connect--unite
-{
+    font-size: 1.25rem;
+    margin-top: 80px;
+    max-width: 545px;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    gap: 20px;
+    line-height: 32px;
 }
-.connect--socials
+.pov-design
 {
+    font-size: 1.25rem;
+    margin-top: 80px;
+    max-width: 545px;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    gap: 20px;
+    line-height: 32px;
 }
-.connect--socials > span > a
+.pov-design--saying
 {
-    color: white;
+    font-weight: 600;
+    color: var(--blue-font);
+    text-decoration: underline;
 }
-.connect--mail
+#pov-heading
 {
-    margin-top: 20px;
+    color: rgba(127, 127, 132, 1);
+    font-weight: 600;
 }
-.connect--mail > a
+.fintech
 {
-    color: white;
+    font-size: 1.25rem;
+    margin-top: 80px;
+    max-width: 545px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 32px;
 }
-.connect--sadha--linkedin
+#fintech-heading
 {
-    margin-top: 28px;
+    color: rgba(127, 127, 132, 1);
+    font-weight: 600;
 }
-#sadha-linkedin
+.fintech--design-for-trust
 {
-    color: white;
+    font-weight: 600;
+    color: var(--blue-font);
+    /* text-decoration: underline; */
 }
-/*
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+.how-i-work
 {
-    html
-    {
-        font-size: 16px;
-    }
-    .main
-    {
-        margin-left: 25px;
-    }
-    .main--name
-    {
-        font-size: 0.85rem; 
-    }
-    .main--info
-    {
-        margin-top: 40px;
-        font-size: 1rem;
-        line-height:24px;
-    }
-    .main--stocks
-    {
-        font-size: 1rem;
-        line-height:24px;
-        margin-top: 20px;
-    }
-    .main--freecharge
-    {
-        font-size: 1rem;
-        line-height:24px;
-        margin-top: 20px;
-    }
-    .main--location
-    {
-        font-size: 1rem;
-        line-height:24px;
-        margin-top: 20px;
-    }
-    .container--div
-    {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 80%;
-    }
-    .charan-img
-    {
-        visibility: hidden;
-    }
-    .charan-img-2
-    {
-        visibility: visible;
-        margin-top: 20px;
-        width: 80%;
-    }
-    .work
-    {
-        margin-left: 25px;
-        margin-top: 80px;
-    }
-    #work-heading
-    {
-        font-size: 1.4rem;
-    }
-    .project-container
-    {
-        margin-left: 27px;
-    }
-    .project-cover
-    {
-        width: 270px;
-        height: 202px;
-    }
-    .about
-    {
-        margin-left: 25px;
-        margin-top: 80px;
-    }
-    #about--heading
-    {
-        font-size: 1.4rem;
-    }
-    .about-charan-1, .about-charan-2, .about-charan-3
-    {
-        margin-top: 80px;
-        line-height: 24px;
-        font-size: 1rem;
-        font-weight: 500;
-        text-align: left;
-        max-width:325px;
-    }
-    .resume-link
-    {
-        font-size: 1rem;
-    }
-    .connect
-    {
-        font-size: 1rem;
-        display: flex;
-        flex-direction: column;
-        padding-left: 25px;
-        padding-bottom: 30px;
-    }
-    .connect--charan
-    {
-        margin-top: 30px;
-    }
-    .connect--unite
-    {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .connect--socials
-    {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    .connect--socials > span > a
-    {
-        color: white;
-    }
-    .connect--mail
-    {
-        margin-top: 10px;
-    }
-    .connect--mail > a
-    {
-        color: white;
-    }
-    .connect--sadhasivam
-    {
-        margin-top: 51px;
-    }
-    .connect--sadha--linkedin
-    {
-        margin-top: 10px;
-        max-width: 300px;
-    }
-    #sadha-linkedin
-    {
-        color: white;
-    }
+    font-size: 1.25rem;
+    margin-top: 80px;
+    max-width: 545px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 32px;
+}
+#how-i-work-heading
+{
+    color: rgba(127, 127, 132, 1);
+    font-weight: 600;
+}
+.lets-connect
+{
+    font-size: 1.25rem;
+    margin-top: 80px;
+    max-width: 545px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 32px;
+}
+#lets-connect-heading
+{
+    color: rgba(127, 127, 132, 1);
+    font-weight: 600;
+}
+.connect-socials a
+{
+    font-weight: 600;
+    color: var(--blue-font);
+}
+.connect-mail
+{
+    color: var(--blue-font);
+    font-weight: 600;
+}
+.credits
+{
+    color: #7F7F84;
+    font-size: 1.25rem;
+    margin-top: 80px;
+    margin-left: -110px;
+    max-width: 545px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 32px;
+    text-align: left;
+}
+.sadhasivam
+{
+    font-weight: 700;
+    color:rgba(84, 157, 231, 1);
 }
 
-*/
