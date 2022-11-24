@@ -18,17 +18,6 @@ body
     padding: 80px 140px 208px 140px;
     font-family: 'Libre Franklin';
 }
-.non-scroll
-{
-    height: 100%;
-    overflow-y: hidden;
-}
-.name--nav
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
 .name
 {
     font-size: 2rem;
@@ -45,8 +34,11 @@ body
 {
     width: 432px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 46px;
+    position: absolute;
+    top: 86px;
+    right: 0;
 }
 .nav-links
 {
@@ -55,96 +47,11 @@ body
     font-size: 1.25rem;
     font-weight: 600;
 }
-#home-btn, #work-btn
+#resume-link
 {
-  border: none;
-  background: none;
-  cursor: pointer;
-  text-decoration: none;
+    margin-left: 46px;
+    margin-left: 0;
 }
-.works-slideup
-{
-    transition: 300ms ease-in-out ;
-    position: absolute;
-    top: 600px;
-    visibility: hidden;
-    height: 450px;
-    box-shadow: -8px 10px 100px 4px rgba(0, 0, 0, 0.04);
-    box-shadow: 8px -10px 100px 4px rgba(0, 0, 0, 0.04);
-    border-radius: 40px 40px 0px 0px;
-    padding-top: 80px;
-    padding-left: 80px;
-    overflow: hidden;
-    overflow-y: scroll;
-}
-.works-slideup::-webkit-scrollbar { 
-    display: none;
-}
-#work-heading
-{
-    font-weight: 600;
-    font-size: 2rem;
-    color: rgba(127, 127, 132, 1);
-}
-#close-button
-{
-    width: 44px;
-    position: absolute;
-    right: 80px;
-    top: 74px;
-    cursor: pointer;
-}
-.work-container
-{
-    max-width: 1044px;
-    max-height: 200px;
-    background-color:rgba(255, 254, 252, 1);
-    padding-top: 46.5px;
-    padding-left: 30px;
-    padding-bottom: 46.5px;
-    display: flex;
-    gap: 8px;
-    flex-direction: column;
-}
-.heading
-{
-    color: rgba(84, 157, 231, 1);
-    font-size: 2rem;
-    font-weight: 500;
-}
-.sub
-{
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: rgba(127, 127, 132, 1);
-    max-width: 850px;
-}
-.description
-{
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 1);
-    max-width: 850px;
-}
-
-/*
-AFTER SLIDE UP
-*/
-
-.slide-up
-{
-    visibility: visible;
-    transform: translateY(-70%);
-    z-index: 10;
-    /* position: relative; */
-    background:rgba(255, 254, 252, 1);
-    /* display: flex; */
-    margin-left: 40px;
-}
-
-/*
-END OF WORK STYLES
-*/
 .center-content-wrapper
 {
     display: flex;
