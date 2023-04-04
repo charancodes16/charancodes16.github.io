@@ -1,199 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *
 {
     margin: 0;
     padding: 0;
 }
-:root
-{
-    --blue-font: rgba(84, 157, 231, 1);
-}
-html
-{
-    font-size: 100%;
-}
 body
 {
-    background: rgba(255, 254, 252, 1);
-    padding: 80px 140px 208px 140px;
-    font-family: 'Libre Franklin';
+    font-family: 'Inter';
+    color: #494E52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.name
+ :root
+ {
+    font-size: 16px;
+ }
+.header
 {
-    font-size: 2rem;
-    font-weight: 500;
-    letter-spacing: 6%;
-    line-height: 38.78px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* padding: 51px 0 51px 140px; */
+    width: 100%;
+    background-color: #0095F6;
+    margin-bottom: 166px;
 }
-#charan
-{
-    color: var(--blue-font);
+ #charan-header
+ {
+    width: 28px;
+    border-radius: 14px;
+    margin: 51px 0 51px 140px;
+ }
+ #charan-pushpanathan-header
+ {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+ }
+
+ .section-1
+ {
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 216px;
+ }
+
+ #charan-main
+ {
+    width: 100px;
+    border-radius: 50px;
+ }
+ .charan-roles
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .charan-pushpanathan-main
+ {
+    font-size: 1.25rem;
     font-weight: 700;
-}
-.nav-bar
+    color: #494E52;
+ }
+#roles
 {
-    width: 432px;
+    color: #494E52;
+    font-weight: 400;
+    font-size: 1.125rem;
+    width: 762px;
+}
+ .nav
+ {
     display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 1.125rem;
+ }
+ .nav > a
+ {
+    color: #0095F6;
+ }
+
+ #connect-button
+ {
+    width: 160px;
+    padding: 23.5px 10px;
+    background-color: #0095F6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 46px;
-    position: absolute;
-    top: 86px;
-    right: 0;
-}
-.nav-links
-{
+    border-radius: 16px;
     text-decoration: none;
-    color: var(--blue-font);
-    font-size: 1.25rem;
-    font-weight: 600;
-}
-#resume-link
+    font-size: 1.125rem;
+    margin-bottom: 117px;
+ }
+
+ #scroll-info
+ {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #494E52;
+ }
+
+
+ .section-2
 {
-    margin-left: 46px;
-    margin-left: 0;
-}
-.center-content-wrapper
-{
+    padding-left: 140px;
+    padding-right: 140px;
     display: flex;
-    margin: auto 0;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    z-index: 1;
+    /* gap: 40px; */
+    margin-bottom: 50px;
 }
-.main-section
+.space-inside-paragraph
 {
-    /* margin: auto 0; */
-    margin-top: 130px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Libre Franklin';
-    font-size: 1.25rem;
-    max-width: 545px;
-    line-height: 32px;
+    margin-bottom: 10px;
 }
-.HDFC
+.about-area
 {
-    font-weight: 600;
-    color: var(--blue-font);
-    text-decoration: underline;
+    width: 770px;
+    font-size: 1.125rem;
+    line-height: 23px;
 }
-.previous-work, .previous-work a
+.about--1
 {
-    font-weight: 600;
-    color: var(--blue-font);
-}
-.main-section--fintech
-{
-    margin-top: 14px;
-}
-.main-section--HDFC
-{
-    margin-top: 14px;
-}
-.main-section--previous
-{
-    margin-top: 14px;
-}
-.main--section--location
-{
-    margin-top: 14px;
-}
-.main-section--charan-pic
-{
-    margin-top: 80px;
+    font-size: 1.125rem;
+    line-height: 23px;
+    margin-bottom: 50px;
 }
 
-.charan-and-design
+.about--2
+{
+    font-size: 1.125rem;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+.about--3
+{
+    font-size: 1.125rem;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+.about--4
+{
+    font-size: 1.125rem;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+.about--5
+{
+    font-size: 1.125rem;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+.about--6
+{
+    font-size: 1.125rem;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+.line-break
+{
+    border: 2px solid #7A8288;
+    opacity: 10%;
+    margin: 20px 0 20px 0;
+}
+
+.about--heading
 {
     font-size: 1.25rem;
-    margin-top: 80px;
-    max-width: 545px;
+    font-weight: 600;
+}
+
+.navigating-text
+{
+    color: #0095F6;
+    font-style: italic;
+}
+.navigating-text-normal
+{
+    color: #0095F6;
+}
+ .section-3
+{
+    padding-left: 140px;
+    padding-right: 140px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    line-height: 32px;
-}
-.pov-design
-{
-    font-size: 1.25rem;
-    margin-top: 80px;
-    max-width: 545px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    line-height: 32px;
-}
-.pov-design--saying
-{
-    font-weight: 600;
-    color: var(--blue-font);
-    text-decoration: underline;
-}
-#pov-heading
-{
-    color: rgba(127, 127, 132, 1);
-    font-weight: 600;
-}
-.fintech
-{
-    font-size: 1.25rem;
-    margin-top: 80px;
-    max-width: 545px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    line-height: 32px;
-}
-#fintech-heading
-{
-    color: rgba(127, 127, 132, 1);
-    font-weight: 600;
-}
-.fintech--design-for-trust
-{
-    font-weight: 600;
-    color: var(--blue-font);
-    /* text-decoration: underline; */
-}
-.how-i-work
-{
-    font-size: 1.25rem;
-    margin-top: 80px;
-    max-width: 545px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    line-height: 32px;
-}
-#how-i-work-heading
-{
-    color: rgba(127, 127, 132, 1);
-    font-weight: 600;
-}
-.gallery
-{
- font-family: 'Libre Franklin';
- font-size: 1.25rem;
- margin-left: 50px;
- margin-top: 48px;
- margin-left: -5px;
-}
-#gallery-heading
-{
-    font-weight: 600;
-    color:rgba(127, 127, 132, 1);
-    margin-bottom: 32px;
-}
-#shoton-iPhone
-{
-    font-weight: 600;
-    color: var(--blue-font);
+    /* gap: 40px; */
+    /* margin-bottom: 50px; */
 }
 .gallery-container
 {
-    margin-top: 48px;
+    margin-top: 20px;
     margin-bottom: 22px;
 }
 #image-1
@@ -284,48 +289,213 @@ body
     grid-template-rows: 210px 336px;
     grid-template-columns: 320px 215px;
 }
-
-.lets-connect
+.section-4
 {
-    font-size: 1.25rem;
-    margin-top: 48px;
-    max-width: 545px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    line-height: 32px;
-}
-#lets-connect-heading
-{
-    color: rgba(127, 127, 132, 1);
-    font-weight: 600;
-}
-.connect-socials a
-{
-    font-weight: 600;
-    color: var(--blue-font);
-}
-.connect-mail
-{
-    color: var(--blue-font);
-    font-weight: 600;
-}
-.credits
-{
-    color: #7F7F84;
-    font-size: 1.25rem;
-    margin-top: 80px;
-    margin-left: -110px;
-    max-width: 545px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    line-height: 32px;
-    text-align: left;
-}
-.sadhasivam
-{
-    font-weight: 700;
-    color:rgba(84, 157, 231, 1);
+    max-width: 763px;
+    padding: 50px 20px;
+    margin: 50px 140px 0 140px;
+    background-color: #0095F6;
+    color: #fff;
 }
 
+.navigating-text-connect
+{
+    color: #fff;
+    
+}
+.line-break-connect
+{
+    border: 2px solid #fff;
+    opacity: 10%;
+    margin: 20px 0 20px 0;
+}
+
+.connect-description
+{
+    max-width: 763px;
+    font-size: 1.125rem;
+    line-height: 23px;
+    font-weight: 300;
+}
+
+
+/*
+Mobile responsive styling
+*/
+
+/*
+iphone 12 pro
+*/
+
+
+@media screen and (max-width: 600px) 
+{
+    .header
+    {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 29px 0 29px 20px;
+        /* background-color: #0095F6; */
+        margin-bottom: 97px;
+    }
+     #charan-pushpanathan-header
+    {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #fff;
+    }
+     #charan-header
+    {
+        width: 22px;
+    }
+    #roles
+    {
+        width: 320px;
+        max-width: 320px;
+    }
+     .section-1
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 216px;
+    }
+     #connect-button
+    {
+        width: 320px;
+        padding: 23.5px 10px;
+        border-radius: 12px;
+        font-size: 1.125rem;
+    }
+     .section-2
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .about-area
+    {
+        max-width: 320px;
+    }
+    .section-3
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .gallery-container
+    {
+        margin-top: 48px;
+        margin-bottom: 22px;
+    }
+    #image-1
+    {
+        height: 210px;
+        width: 320px;
+    }
+    #image-2
+    {
+        height: 210px;
+        width: 215px;
+
+    }
+    #image-3
+    {
+        height: 250px;
+        width: 215px;
+
+    }
+    #image-4
+    {
+        height: 381px;
+        width: 320px;
+
+    }
+    #image-5
+    {
+        height: 250px;
+        width: 215px;
+    }
+    #image-6
+    {
+        height: 255px;
+        width: 215px;
+
+    }
+    #image-7
+    {
+        height: 381px;
+        width: 320px;
+
+    }
+    #image-8
+    {
+        height: 210px;
+        width: 320px;
+
+    }
+    #image-9
+    {
+        height: 210px;
+        width: 215px;
+
+    }
+    #image-10
+    {
+        height: 336px;
+        width: 545px;
+    } 
+    .flex-container-one
+    {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .flex-container-two
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .flex-container-three
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .flex-container-wrap
+    {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .grid-container-one
+    {
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 210px 336px;
+        grid-template-columns: 320px 215px;
+    }
+    .section-4
+    {
+        padding: 50px 20px;
+        /* width: 200px; */
+        margin: 0px;
+        background-color: #0095F6;
+        color: #fff;
+    }
+    .connect-description
+    {
+        font-size: 0.875rem;
+        max-width: 320px;
+    }
+}
