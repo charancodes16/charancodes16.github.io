@@ -25,13 +25,13 @@ body
     /* padding: 51px 0 51px 140px; */
     width: 100%;
     background-color: #0095F6;
-    margin-bottom: 166px;
+    margin-bottom: 80px;
 }
  #charan-header
  {
     width: 28px;
     border-radius: 14px;
-    margin: 51px 0 51px 140px;
+    margin: 45px 0 45px 140px;
  }
  #charan-pushpanathan-header
  {
@@ -98,11 +98,12 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 16px;
+    border-radius: 100px;
     text-decoration: none;
     font-size: 1.125rem;
-    margin-bottom: 117px;
+    margin-bottom: 20px;
  }
+
 
  #scroll-info
  {
