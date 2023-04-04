@@ -85,7 +85,10 @@ body
  {
     color: #0095F6;
  }
-
+.nav-links
+{   
+    width: 0px;
+}
  #connect-button
  {
     width: 160px;
