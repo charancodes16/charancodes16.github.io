@@ -315,7 +315,7 @@ body
 {
     border: 2px solid #fff;
     opacity: 10%;
-    margin: 20px 0 20px 0;
+    margin: 15px 0 15px 0;
 }
 
 .connect-description
@@ -342,6 +342,13 @@ iphone 12 pro
     {
         margin: 0;
         padding: 0;
+    }
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .header
     {
@@ -377,6 +384,8 @@ iphone 12 pro
     {
         font-size: 0.875rem;
         line-height: 18px;
+        width: 340px;
+        max-width: 340px;
     }
     .about--1, .about--2, .about--3, .about--4, .about--5, .about--6
     {
@@ -399,7 +408,7 @@ iphone 12 pro
     {
         width: 320px;
         padding: 23.5px 10px;
-        border-radius: 12px;
+        border-radius: 160px;
         font-size: 1.125rem;
     }
     #scroll-info
@@ -420,10 +429,6 @@ iphone 12 pro
     {
         margin-top: 15px;
         margin-bottom: 15px;
-    }
-    .about-area
-    {
-        max-width: 320px;
     }
     .section-3
     {
