@@ -529,7 +529,7 @@ iphone 12 pro
     {
         display: grid;
         gap: 10px;
-        grid-template-rows: 124px 336px;
+        grid-template-rows: 124px 200px;
         grid-template-columns: 185px 130px;
     }
     .section-4
