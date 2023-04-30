@@ -24,7 +24,7 @@ body
     align-items: center;
     /* padding: 51px 0 51px 140px; */
     width: 100%;
-    background-color: #0095F6;
+    background-color: #E1714C;
     margin-bottom: 80px;
 }
  #charan-header
@@ -83,7 +83,7 @@ body
  }
  .nav > a
  {
-    color: #0095F6;
+    color: #E1714C;
  }
 .nav-links
 {   
@@ -93,7 +93,7 @@ body
  {
     width: 160px;
     padding: 23.5px 10px;
-    background-color: #0095F6;
+    background-color: #E1714C;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -184,12 +184,12 @@ body
 
 .navigating-text
 {
-    color: #0095F6;
+    color: #E1714C;
     font-style: italic;
 }
 .navigating-text-normal
 {
-    color: #0095F6;
+    color: #E1714C;
 }
  .section-3
 {
@@ -302,7 +302,7 @@ body
     max-width: 763px;
     padding: 50px 20px;
     margin: 50px 140px 0 140px;
-    background-color: #0095F6;
+    background-color: #E1714C;
     color: #fff;
 }
 
@@ -535,7 +535,7 @@ iphone 12 pro
         padding: 50px 20px;
         /* width: 200px; */
         margin: 0px;
-        background-color: #0095F6;
+        background-color: #E1714C;
         color: #fff;
         /* margin: 30px 0px 0px 0px; */
     }
